@@ -22,15 +22,15 @@ int main()
     float usertotal = .01*pennies+.05*nickels+.1*dimes+.25*quarters;
     if(usertotal==price)
     {
-        cout << "congratulations, you made a dollar and won the game" << endl;
+        cout << "congratulations, the value of your coins is " << usertotal << " and equals your intended amount" << endl;
     }
     else if (usertotal<price)
     {
-        cout << "your amount is " << usertotal << " and is less than 1 dollar" << endl;
+        cout << "your amount is " << usertotal << " and is less than " << price << endl;
     }
     else
     {
-        cout << "your amount is " << usertotal << " and is more than 1 dollar" << endl;
+        cout << "your amount is " << usertotal << " and is more than " << price << endl;
     }
     return 0;
 }
